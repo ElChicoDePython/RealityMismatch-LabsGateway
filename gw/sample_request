@@ -1,0 +1,9 @@
+{
+"networks": [
+    {"name": "default"}
+    ],
+
+"labs": [
+        {"type": "docker", "image": "nginx", "network": "default"}
+    ]
+}
